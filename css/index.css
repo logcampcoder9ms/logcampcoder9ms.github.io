@@ -1,0 +1,132 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif; /* Add your custom font here */
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.white {
+  color: #ffffff;    
+}
+
+.ui.underline {
+  text-decoration: underline;
+}
+
+.no-padding.no-margin{
+  padding: 0px;
+  margin: 0px;
+}
+
+.border-round {
+  border: solid;
+  size: 3px;
+  border-radius: 3px; 
+}
+
+section {
+  padding: 60px 0px 60px 0px;   
+  margin: 0 auto;
+}
+
+.border-red {
+  border: solid;
+  border-color: #cc0000;      
+}
+
+.border-grey {
+  border: solid;
+  border-color: #cccccc;      
+}
+
+
+header {
+  background-color: #333333;  
+/* You can change the header background image here */    
+  background-image: url(../images/header-background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 250px 0px 250px 0px;
+  margin: 0 auto;  
+}
+
+#about {
+  background-color: none;
+} 
+
+#image-gallery {
+  background-color: #cc0000;
+}
+
+#section-one {
+    
+}
+
+#section-two {
+    
+}
+
+#section-three {
+  background-color: #cccc00;
+}
+
+#section-four {
+  background-color: #0099cc;
+  background-image: url();
+}
+
+#section-five {
+  background-color: #cc0000;
+  background-image: url(../images/tree_bark.png);
+}
+
+.tree {
+  background: url(../images/tree_bark.png) center; 
+  padding: 50px 20px 50px 20px;
+  margin: 0 auto;
+}
+
+.ui.footer.list {
+  list-style-type: none;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;    
+}
+
+footer {
+  background: url(../images/full-width-image.jpg) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 250px 20px 250px 20px;
+  margin: 0 auto;
+}
+
+.copyright {
+  font-size: 12px;
+  text-transform: uppercase;
+}
